@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+header, nav, footer {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+}
+header h1, footer p {
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+button {
+    background-color: #008000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005700;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items horizontally */
+    margin: 0 20%; /* 20% margin on either side */
+    padding: 20px; /* Optional: Add some padding for better spacing */
+    background-color: #f0f0f0;
+}
+
+.form-background {
+    background-color: #004080; /* Add a white background to the form */
+    border-radius: 5px; /* Optional: Add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    padding: 20px; /* Optional: Add some padding for better spacing */
+}
+
+
+/* Optional: Add some styling to the Typeform embed container if needed */
+#tripetto-1r5sz9v {
+    width: 100%; /* Make the Typeform embed take the full width of its container */
+    /* Add any other styles you might need for the embed */
+}
